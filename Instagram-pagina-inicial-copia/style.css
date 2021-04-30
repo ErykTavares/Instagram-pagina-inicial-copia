@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.content{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    margin: 30px;
+}
+
+.phoneimg{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 50%;
+}
+
+.phoneimg img{
+    height: 640px;
+}
+
+.content-entrar-sair {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 544px;
+
+}
+
+.content-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0px;
+    border: 1px solid red;
+    width: 80%;
+    background-color: #ffff;
+    
+}
+
+.content-group:nth-child(1){
+    min-height: 344px;
+    padding-bottom: 40px;
+    font-size: 13px;
+}
+
+.content-group:nth-child(2){
+    color: rgb(141, 137, 137);
+    font-size: 13px;
+}
+
+.profileimg{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 110px;
+}
+
+.instagram{
+    height: 48px;
+}
+
+
+.apps{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+
+.logo-img img{
+    margin-bottom: -50px;
+    height:40px;
+}
+
+.logo1{
+    height:92px;
+    
+}
+
+
+.button-btn{
+    padding: 5px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5%;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.links{
+    color: rgb(255, 0, 0);
+}
+
+footer{
+    position:absolute;
+    width:100%;
+    bottom:-23%;
+    padding:20px 0;
+    text-align: center;
+    color: rgb(141, 137, 137);
+    font-size: 11px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .content{
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    body{
+        background-color: #fff;
+    }
+    .content{
+        width: 90%;
+    }
+    .phoneimg{
+        display: none;
+    }
+    .content-entrar-sair{
+        width: 100%;
+    }
+    .content-group{
+        border: 1px solid transparent;
+    }
+    .logo-img{
+        display:flex;
+        margin-top: 6px;
+    }
+    
+}
